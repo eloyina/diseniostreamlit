@@ -1,0 +1,144 @@
+body { background-color: pink;
+
+/* Container for the parallax effect */
+.parallax-container {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+  }
+  
+  /* Content inside the parallax container */
+  .parallax-content {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    transform-style: preserve-3d;
+    transform-origin: 0 0;
+    will-change: transform;
+  }
+  
+  /* Layers of the parallax effect */
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* Example styling for different layers */
+  .parallax-layer.layer1 {
+    transform: translateZ(-1px) scale(2);
+  }
+  .sample-section {
+    position: relative;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+  }
+  
+  .parallax-layer.layer2 {
+    transform: translateZ(-2px) scale(3);
+  }
+  
+  .parallax-layer.layer3 {
+    transform: translateZ(-3px) scale(4);
+  }
+  
+  /* Additional styling */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+  
+col1.markdown("""
+<style>
+body {
+    color: blue; /* Set text color to white */
+    background-color: pink; /* Set background color to pink */
+}
+/* Container for the parallax effect */
+.parallax-container {
+height: 100vh;
+overflow-x: hidden;
+overflow-y: auto;
+perspective: 1px;
+}
+
+/* Content inside the parallax container */
+.parallax-content {
+position: sticky;
+top: 0;
+height: 100vh;
+transform-style: preserve-3d;
+transform-origin: 0 0;
+will-change: transform;
+}
+
+/* Layers of the parallax effect */
+.parallax-layer {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+/* Example styling for different layers */
+.parallax-layer.layer1 {
+transform: translateZ(-1px) scale(2);
+}
+
+.parallax-layer.layer2 {
+transform: translateZ(-2px) scale(3);
+}
+
+.parallax-layer.layer3 {
+transform: translateZ(-3px) scale(4);
+}
+
+/* Additional styling */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+.css-fg4pbf {
+    position: absolute;
+    background: #add8e6;
+    color: rgb(49, 51, 63);
+    inset: 0px;
+    overflow: hidden;
+}
+
+    /* Modify the color of specific elements */
+    .css-1g6gooi.e1wofg1y0 {
+        color: blue; /* Set specific text color to green */
+    }
+
+    .css-1nqjr8p.e1wofg1y1 {
+        background-color: pink; /* Set specific background color to blue */
+    }
+.css-fg4pbf {
+position: absolute;
+background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/22/New_York_City_at_night_HDR.jpg')
+     
+color: rgb(49, 51, 63);
+inset: 0px;
+overflow: hidden;
+}
+
+/* Modify the color of specific elements */
+.css-1g6gooi.e1wofg1y0 {
+    color: blue; /* Set specific text color to green */
+}
+
+.css-1nqjr8p.e1wofg1y1 {
+    background-color: pink; /* Set specific background color to blue */
+}
+</style>
+
+
